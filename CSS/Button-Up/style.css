@@ -1,0 +1,35 @@
+.search{
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    color: cadetblue;
+    background-color:whitesmoke;
+    border: 2px solid cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 15px;
+}
+
+.circle{
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: rgb(43, 239, 173);
+    color: white;
+    margin-left: 15px;
+    width: 35px;
+    height:35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.creat{
+    background-color: rgb(89, 89, 222);
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 170px;
+    height: 30px;
+    font-size: 15px;
+    color: wheat;
+    box-shadow: 5px 3px 3px black;
+}

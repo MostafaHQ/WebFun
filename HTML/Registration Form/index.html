@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+
+        <div>
+            <label for="text">First name:*</label>
+            <input type="text" name="first name" placeholder="First name..">
+        </div>
+        <div>
+            <label for="text">Last name:*</label>
+            <input type="text" name="lat name" placeholder="Last name..">
+        </div>
+        <div>
+            <label for="text">Email adress:*</label>
+            <input type="text" name="emil adress" placeholder="Email adress..">
+        </div>
+        <div>
+            <label for="text">Password:*</label>
+            <input type="password" name="Password" placeholder="Password..">
+        </div>
+        <div>
+            <label for="text">Confirm password:*</label>
+            <input type="password" name="password" placeholder="Password.."> 
+        </div>
+        <div>
+            <label for="text">Birthday:</label>
+            <input type="date" name="dob">
+        </div>
+        <p>Gender Identity:</p>
+        <div>
+            <input type="radio" name="Gender" value="Gender" id="Male">
+            <label for="text">Male</label>
+            <input type="radio" name="Gender" value="Gender" id="Female">
+            <label for="text">Female</label>
+            <input type="radio" name="Gender" value="Gender" id="Non-binary">
+            <label for="text">Non-binary</label>
+            <input type="radio" name="Gender" value="Gender" id="I prefer not to answer">
+            <label for="text">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short descreption bout myself:</p>
+            <textarea name="descreption" id="descreption" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="text">Favorite Langauge:</label>
+            <select name="language" id="language">
+                <option value="">Python</option>
+                <option value="">Javascript</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="email_updets" id="email_updets">
+            <label for="text">Yes,I would like to receive periodic email updates </label>
+        </div>
+        <div>
+            <input type="submit" value="creat account">
+        </div>
+        <p>*Indicates a required filed</p>
+    </form>
+</body>
+</html>

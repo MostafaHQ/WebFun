@@ -1,0 +1,33 @@
+.nav {
+    height: 80px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color:white ;
+    margin-left: 15px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    color: white;
+    margin: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: darkcyan;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
+}

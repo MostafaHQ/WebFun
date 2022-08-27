@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="#">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </nav>
+    <section class="user-card">
+        <div class="block1"></div>
+        <div><img class="profile-icon" src="imges/user-circle.png" alt="user-circle"></div>
+        <h1 class="name">Jane Doe</h1>
+        <div>
+            <img class="map-marker" src="imges/map-marker.png" alt="map-marker">
+            <p class="place" >Seattle</p>
+        </div>
+        <div class="describe">
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet</p>
+        </div>
+        <div>
+            <img class="gear" src="imges/gear.png" alt="gear">
+            <p> <a id="gear-link" href="#">edit profile</a></p>
+        </div>
+    </section>
+    <section class="education">
+        <div class="edu-bar"><h2>Education</h2></div>
+        <div class="certificates">
+            <p class="cert-desc">Coding Dojo - Full Stack Bootcamp</p>
+            <p class="cert-period">Dec 2019 - Mar 2020</p>
+            <p class="cert-sub">Triple black belt in Python, MERN, and C#</p>
+        </div>
+        <aside class="con-requests">
+            <div class="req-bar">
+                <button class="num-req">2</button>
+                <p class="req">Connection Requests</p>
+            </div>
+            <div class="accounts">
+                <ul class="list-accounts">
+                    <li class="acount-1"><img class="account-img" src="imges/user-circle.png" alt="user-circle"><span>Todd E</span></li>
+                    <li class="account-2"><img class="account-img" src="imges/user-circle.png" alt="user-circle"> <span>Phill K</span></li>
+                </ul>
+                <div class="name-1">
+                    <img class="accept-img" src="imges/accept-circle.png" alt="accept">
+                    <img class="close-img" src="imges/close-circle.png" alt="clos">
+                </div>
+                <div class="name-2">
+                    <img class="accept-img" src="imges/accept-circle.png" alt="accept"></div>
+                    <img id="close-img" src="imges/close-circle.png" alt="clos">
+                </div>
+            </div>
+        </aside>
+        <aside class="your-con">
+            <div class="con-bar">
+                <button class="num-con">500+</button>
+                <p class="con">Your Connection</p>
+            </div>
+            <div class="con-accounts">
+                <ul class="con-list">
+                    <li class="acount-1"><img class="account-img" src="imges/user-circle.png" alt="user-circle"><span>Adrien D</span></li>
+                    <li class="acount-1"><img class="account-img" src="imges/user-circle.png" alt="user-circle"><span>Ann J</span></li>
+                    <li class="acount-1"><img class="account-img" src="imges/user-circle.png" alt="user-circle"><span>Alayne T</span></li>
+                    <li class="acount-1"><img class="account-img" src="imges/user-circle.png" alt="user-circle"><span>Arry Y</span></li>
+                </ul>
+            </div>
+            <div class="more-con">
+                <a class="view-more" href="#">View More</a>
+            </div>
+        </aside>
+    </section>
+
+</body>
+
+</html>

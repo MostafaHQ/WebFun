@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 970px;
+    height: 200vh;
+    background-color: rgb(36, 80, 118);
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title img {
+    width: 270px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header p {
+    color: white;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header span {
+    color: rgb(173, 157, 27);
+    text-decoration: underline;
+}
+
+.search {
+    padding: 8px 30px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 5%;
+    margin-right: 15px;
+    box-shadow: 2px 2px 2px;
+}
+
+.header button {
+    margin-left: 2px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:rgb(36, 80, 118);
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 10px;
+}
+
+.header input {
+    height: 20px;
+    width: 130px;
+}
+
+.navBar {
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    background-color: rgb(65, 123, 173);
+    box-shadow: 3px 3px 3px;
+    margin-left: 80px;
+}
+
+.navBar li {
+
+    list-style: none;
+    padding: 10px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topics{
+    position: absolute;
+    left: 165px;
+    top: 180px;
+    text-align:center;
+}
+
+.topics a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.topics ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.about-python{
+    width: 570px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 340px;
+    top: 150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 ul li{
+    color: rgb(173, 157, 27);
+    font-size: 20px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.p2 p{
+    margin-top: 15px;
+    font-size: 15px;
+}

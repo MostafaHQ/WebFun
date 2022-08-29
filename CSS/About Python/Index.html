@@ -9,68 +9,98 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="container">
-    <header class="header">
-        <div class="title">
-            <img src="images/python.png" alt="Python-Logo">
-        </div>
-        <div>
-            <p>Text Size: <span>Normal | Large</span></p><br>
-            <div class="search">
-                <input type="text" id="search"><button>GO</button>
+<body>
+    <div class="container">
 
+        <header class="header">
+            <div class="title">
+                <img src="images/python.png" alt="Python-Logo">
             </div>
-    </header>
-    <nav>
-        <ul class="navBar">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">Documentation</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Event</a></li>
-        </ul>
-    </nav>
-    <section>
-        <div class="topics">
-            <ul>
-                <li><a href="#">Docs</a></li>
-                <li><a href="#">Audio/Visual Talks</a></li>
-                <li><a href="#">Beginner's Guide</a></li>
-                <li><a href="#">Developer's Guide</a></li>
-                <li><a href="#">PEP Index</a></li>
-                <li><a href="#">Python Books</a></li>
-                <li><a href="#">FAQ</a></li>
+            <div>
+                <p>Text Size: <span><a href="#">Normal </a> | <a href="#">Large</a></span></p><br>
+                <div class="search">
+                    <input type="text" id="search"><button>GO</button>
+
+                </div>
+        </header>
+        <nav>
+            <ul class="navBar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Event</a></li>
             </ul>
-        </div>
-        <div class="about-python" >
-            <p>First appearing in 1991, Python is a general-purpose,high-level, interpreted programing
-                language whose design focus emphasize code readability.Whether for processing/analyzing
-                data to powering many well-known applications, Python is not only a great for new programmers 
-                but also powerful enough for seasoned developers building whatever they can think of
-            </p>
-            <div class="p2">
+        </nav>
+        <section>
+            <div class="topics">
                 <ul>
-                    <li>Beautiful is better than ugly;</li>
-                    <li>Explicit is better than implicit;</li>
-                    <li>Simple is better than complex;</li>
-                    <li>Complex is better than complicated;</li>
-                    <li>readability count;</li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Audio/Visual Talks</a></li>
+                    <li><a href="#">Beginner's Guide</a></li>
+                    <li><a href="#">Developer's Guide</a></li>
+                    <li><a href="#">PEP Index</a></li>
+                    <li><a href="#">Python Books</a></li>
+                    <li><a href="#">FAQ</a></li>
                 </ul>
-                <p>The Zen of Python</p>
             </div>
-        </div>
-    </section>
-    <article class="article">
-        <div class="left-side">
-            <p>Getting Started</p>
-            <p>Python can be easy to pick up whether you're a first time 
-                programmer or you're experienced with other language.
-                The following pages are useful firt step to get on your 
-                way writting programs with Python! 
-            </p>
-        </div>
-    </article>
+            <div class="about-python">
+                <p>First appearing in 1991, Python is a general-purpose,high-level, interpreted programing
+                    language whose design focus emphasize code readability.Whether for processing/analyzing
+                    data to powering many well-known applications, Python is not only a great for new programmers
+                    but also powerful enough for seasoned developers building whatever they can think of
+                </p>
+                <div class="p2">
+                    <ul>
+                        <li>Beautiful is better than ugly;</li>
+                        <li>Explicit is better than implicit;</li>
+                        <li>Simple is better than complex;</li>
+                        <li>Complex is better than complicated;</li>
+                        <li>readability count;</li>
+                    </ul>
+                    <p>The Zen of Python</p>
+                </div>
+            </div>
+        </section>
+        <article class="article">
+            <div class="left-side">
+                <p class="start">Getting Started</p>
+                <p class="steps">Python can be easy to pick up whether you're
+                    a first time programmer or you're experienced
+                    with other language. The following pages are
+                    a useful firt step to get on your way writting
+                    programs with Python!
+                </p>
+                <ul class="listOfSteps">
+                    <li>Beginner's Guide, Programmers</li>
+                    <li>Beginner's Guide, Non-Programmers</li>
+                    <li>Code sample and snippest for Beginners</li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <p class="app">Applications</p>
+                <p class="app-desc">The <span>Python Package Index (PyPI)</span> hosts thusand of
+                    third-party modules for Python.Both Python's
+                    standard library and the community-
+                    contributed modules allow for endless possibilities</p>
+                <ul class="lisOfApp">
+                    <li>Web and Internet Development</li>
+                    <li>Database Accsess</li>
+                    <li>Network Programming</li>
+                    <li>Software and Game Development</li>
+                </ul>
+            </div>
+        </article>
+        <footer>
+            <ul class="listOfFooter">
+                <li><a href="#">Help and General Contact</a></li>
+                <li><a href="#">Diversity Initiatives</a></li>
+                <li><a href="#">Submit Website Bugs</a></li>
+            </ul>
+            <p class="copyright">CopyrightⒸ2001-2016 </p>
+        </footer>
+    </div>
 </body>
 
 </html>

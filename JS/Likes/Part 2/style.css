@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 850px;
+    margin: 0px auto;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+main{
+    display: flex;
+    margin: 0px auto;
+}
+
+.left-side{
+    flex: 1;
+    border: 3px solid black;
+    height: 280px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.left-side a{
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+.left-side p{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.right-side{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1,.box2,.box3 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    height: 180px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name1 , .name2 , .name3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#count1 , #count2 , #count3{
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+button{
+    width: 55px;
+    height: 35px;
+    background-color: rgb(255, 217, 102);
+    box-shadow: 3px 3px 3px;
+}
+
+.box1 p , .box2 p , .box3 p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

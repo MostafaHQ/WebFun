@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+header {
+    background-color:rgb(159, 197, 248);
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20%;
+}
+
+
+main{
+    width: 800px;
+    height: 500px;
+    margin: 0px auto;
+
+}
+
+.cityBar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+}
+
+.today , .tomorrow , .friday , .saturday{
+    background-color: rgb(238, 238, 238);
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.cloud{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+span{
+    display: flex;
+    font-weight: bold;
+    font-size: 23px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.dayDegree{
+    color: rgb(207, 42, 39);
+}
+
+.nightDegree{
+    color: rgb(43, 120, 228);
+}
+
+.today{
+    flex: 1;
+}
+
+.tomorrow{
+    flex: 1;
+}
+
+.friday{
+    flex: 1;
+}
+
+.saturday{
+    flex: 1;
+}
+
+footer{
+    position: fixed;
+    height: 100px;
+    width: 780px;
+    margin: 0px auto;
+    border: 3px solid black;
+    background-color: rgb(238, 238, 238);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer img{
+    width: 80px;
+    height: 80px;
+}
+
+.warning{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgb(159, 197, 248);
+    box-shadow: 3px 3px 3px black;
+    margin-right: 20px;
+    width: 50px;
+}

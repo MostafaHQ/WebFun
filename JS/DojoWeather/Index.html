@@ -10,9 +10,9 @@
 <body>
     <header>
         <h1>DojoWeather</h1>
-        <p>Burbank</p>
-        <p>Chicago</p>
-        <p>Dallas</p>
+        <p onclick="alert('Loading weather report...')">Burbank</p>
+        <p onclick="alert('Loading weather report...')">Chicago</p>
+        <p onclick="alert('Loading weather report...')">Dallas</p>
     </header>
     <main>
         <div class="cityBar">
@@ -22,6 +22,7 @@
                 <option value="degree">°F</option>
             </select></p>
         </div>
+        <div class="line"></div>
         <section class="days">
             <div class="today">
                 <h3>Today</h3>
@@ -66,8 +67,9 @@
                     analyse our traffic. <a href="#">Read more...</a>
                 </p>
             </div>
-            <button class="btn">I Accept</button>
+            <button class="btn" onclick="dismissCookie()">I Accept</button>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

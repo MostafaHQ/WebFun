@@ -12,12 +12,39 @@
         <header class="nav">
             <div class="title">Dojonary</div>
             <div class="search"><input type="text" name="search" id="search" placeholder="search.."></div>
-            <div class="login"><button>Login</button></div>
+            <div class="login"><button onclick="logout(this)">Login</button></div>
         </header>
-        <section class="boxes">
-            <div class="box-1"></div>
-            <div class="box-2"></div>
-        </section>
+        <main class="boxes">
+            <section class="leftSide">
+                <div class="box-1">
+                    <div class="leftColumn" >
+                        <p class="word">ninja</p>
+                        <p>noun <br>Plural:ninjas </p>
+                        <button class="like">13 likes</button>
+                    </div>
+                    <div>
+                        <p class="meaning">A practitiinoer skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="leftColumn" >
+                        <p class="word">ninja</p>
+                        <p>noun <br>Plural:ninjas </p>
+                        <button class="like">37 likes</button>
+                    </div>
+                    <div>
+                        <p class="meaning">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </section>
+            <section class="rightSide">
+                <div class="box-3">
+                    <p class="word2">Dojonary is defined by <span>You</span></p>
+                    <button class="add-def" onclick="deletAdd(this)">Add Definition</button>
+                </div>
+            </section>
+        </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

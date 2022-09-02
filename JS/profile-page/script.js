@@ -8,11 +8,15 @@ function edit(){
 
 function accept1(){
     const deletReq = document.querySelector (".card-list-item");
+    const connNum = document.querySelector ("#numReq");
+    const connections = document.querySelector ("#yourConn");
+    connNum.innerText--;
+    connections.innerText++;
     deletReq.remove();
 }
 
-
-function subNum(){
-    var connNum = document.querySelector (".badge")
-    connNum.innerText--;
+function ignore(){
+    const deletReq = document.querySelector (".card-list-item");
+    deletReq.remove();
+    deletReq.remove();
 }

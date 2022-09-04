@@ -17,9 +17,9 @@
     <main>
         <div class="cityBar">
             <h2>San Jose</h2>
-            <p>show temperature in <select name="temperature" id="temperature">
-                <option value="degree">°C</option>
-                <option value="degree">°F</option>
+            <p>show temperature in <select onchange="changeDegree()" name="temperature" id="temperature">
+                <option value="°C">°C</option>
+                <option value="°F">°F</option>
             </select></p>
         </div>
         <div class="line"></div>
@@ -29,8 +29,8 @@
                 <img class="cloud" src="assets/some_rain.png" alt="some rain">
                 <p>some rain</p>
                 <span>
-                    <p class="dayDegree">24°</p>
-                    <p class="nightDegree">18°</p>
+                    <p class="dayDegree" id="tempDegree">24°</p>
+                    <p class="nightDegree" id="tempDegree">18°</p>
                 </span>
             </div>
             <div class="tomorrow">
@@ -38,24 +38,24 @@
                 <img class="cloud" src="assets/some_sun.png" alt="some sun">
                 <p>some rain</p>
                 <span>
-                    <p class="dayDegree">27°</p>
-                    <p class="nightDegree">19°</p>
+                    <p class="dayDegree" id="tempDegree">27°</p>
+                    <p class="nightDegree" id="tempDegree">19°</p>
             </div>
             <div class="friday">
                 <h3>Friday</h3>
                 <img class="cloud" src="assets/some_clouds.png" alt="some cloud">
                 <p>some rain</p>
                 <span>
-                    <p class="dayDegree">21°</p>
-                    <p class="nightDegree">16°</p>
+                    <p class="dayDegree" id="tempDegree">21°</p>
+                    <p class="nightDegree" id="tempDegree">16°</p>
             </div>
             <div class="saturday">
                 <h3>Saturday</h3>
                 <img class="cloud" src="assets/some_sun.png" alt="some sun">
                 <p>some rain</p>
                 <span>
-                    <p class="dayDegree">26°</p>
-                    <p class="nightDegree">21°</p>
+                    <p class="dayDegree" id="tempDegree">26°</p>
+                    <p class="nightDegree" id="tempDegree">21°</p>
             </div>
         </section>
         <footer>
